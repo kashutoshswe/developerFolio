@@ -252,41 +252,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Employee of the Quarter",
-      subtitle: "Awarded as the employee of the Quarter for January 2023-March 2023",
-      image: require("./assets/images/bluepilogo.png"),
-      imageAlt: "BluePi",
-    },
-    {
-      title: "Employee of the Quarter",
-      subtitle: "Awarded as the employee of the Quarter for April 2022-June 2022 ",
-      image: require("./assets/images/bluepilogo.png"),
-      imageAlt: "BluePi",
-    },
-    {
-      title: "Best Emerging Student Branch of the year 2019, India",
-      subtitle: "Awarded as the Best Emerging Student Branch of the year, 2019 among 12 sections and 600+ student branches in India",
-      image: require("./assets/images/ieee.png"),
-      imageAlt: "IEEE Logo",
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "IEEE Student Branch ",
-          url: "https://edu.ieee.org/in-sicsr/outstanding-emerging-student-branch-under-ieee-india-council-awards-2021-2/",
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
     {
-      title: "Student Chair of the year, 2019, Pune Section",
-      subtitle: "Awarded as the Student Chair of the year, 2019 among 40+ student branches in Pune Section",
-      image: require("./assets/images/ieee.png"),
-      imageAlt: "IEEE Logo",
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "IEEE Student Branch",
-          url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/",
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
     },
+
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
