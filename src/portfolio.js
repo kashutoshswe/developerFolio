@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Ashutosh Kumar",
-  title: "Hi all, I'm Ashutosh Kumar",
+  title: "Hi, I'm Ashutosh Kumar",
   subTitle: emoji(
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Spring Boot, Java / Python / Reactjs and some other cool libraries and frameworks."
   ),
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Associate Technical Lead",
       company: "BluePi",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/bluepilogo.png"),
       date: "January 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Senior Engineer - Application",
       company: "BluePi",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/bluepilogo.png"),
       date: "January 2023 – January 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -190,7 +190,7 @@ const workExperiences = {
     {
       role: "Application Development Engineer",
       company: "BluePi",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/bluepilogo.png"),
       date: "November 2021 – January 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -212,29 +212,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Cool Stuff which I love to build whenever I get some time",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Food Recipe App",
+      projectDesc: "Search using an incredient and get recipes",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://github.com/kashutoshswe/cookingFood"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Automated QR Code Based System",
+      projectDesc: "Automated QR Code Based System for Employees for Tara Mobile Creches NGO",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://taramobilecreches.org/"
         }
       ]
     }
@@ -252,50 +252,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Employee of the Quarter",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Awarded as the employee of the Quarter for January 2023-March 2023 .",
+      image: require("./assets/images/bluepilogo.png"),
+      imageAlt: "BluePi",
+    },
+    {
+      title: "Employee of the Quarter",
+      subtitle:
+        "Awarded as the employee of the Quarter for April 2022-June 2022 ",
+      image: require("./assets/images/bluepilogo.png"),
+      imageAlt: "BluePi",
+    },
+    {
+      title: "Best Emerging Student Branch of the year 2019, India",
+      subtitle:
+        "Awarded as the Best Emerging Student Branch of the year, 2019 among 12 sections and 600+ student branches in India",
+      image: require("./assets/images/ieee.png"),
+      imageAlt: "IEEE Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "IEEE Student Branch ",
+          url: "https://edu.ieee.org/in-sicsr/outstanding-emerging-student-branch-under-ieee-india-council-awards-2021-2/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Student Chair of the year, 2019, Pune Section",
+      subtitle: "Awarded as the Student Chair of the year, 2019 among 40+ student branches in Pune Section",
+      image: require("./assets/images/ieee.png"),
+      imageAlt: "IEEE Logo",
       footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/"
         }
       ]
     }
@@ -312,16 +303,16 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/acm-sicsr/the-dreams-which-got-wings-acm-student-chapter-sicsr-4aa2e881b022",
+      title: "The Dreams Which Got Wings!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        " It started with the curiosity of students to have an ACM Chapter at our college"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://medium.com/@ashutoshkumarbook/cancer-end-of-a-story-2510f6a87238",
+      title: "Cancer - End of Story",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "No Shave November Support"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +334,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +347,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +363,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-0000000000",
+  email_address: "ashutoshkumarbook@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
