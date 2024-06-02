@@ -115,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Symbiosis International (Deemed) University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/siu.png"),
       subHeader: "Master of Science in Computer Applications",
       duration: "May 2019 - May 2021",
       desc: "Gold Medalist. Took courses about Software Architectures, Data Mining, NoSQL",
@@ -126,7 +126,7 @@ const educationInfo = {
     },
     {
       schoolName: "Symbiosis International (Deemed) University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/siu2.jpeg"),
       subHeader: "Bachelor of Computer Applications",
       duration: "July 2016 - May 2019",
       desc: "Gold Medalist. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -254,23 +254,9 @@ const achievementSection = {
     {
       title: "Employee of the Quarter",
       subtitle:
-        "Awarded as the employee of the Quarter for January 2023-March 2023",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "BluePi",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Awarded as the employee of the Quarter for January 2023-March 2023 & April 2022-June 2022",
+      image: require("./assets/images/bluepilogo.png"),
+      imageAlt: "BluePi"
     },
     {
       title: "Best Emerging Student Branch of the year 2019, India",
@@ -292,7 +278,6 @@ const achievementSection = {
       image: require("./assets/images/ieee.png"),
       imageAlt: "IEEE Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
           name: "IEEE Student Chair",
           url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/"
