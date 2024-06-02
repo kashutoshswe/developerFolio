@@ -253,22 +253,19 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Employee of the Quarter",
-      subtitle:
-        "Awarded as the employee of the Quarter for January 2023-March 2023 .",
+      subtitle: "Awarded as the employee of the Quarter for January 2023-March 2023",
       image: require("./assets/images/bluepilogo.png"),
       imageAlt: "BluePi",
     },
     {
       title: "Employee of the Quarter",
-      subtitle:
-        "Awarded as the employee of the Quarter for April 2022-June 2022 ",
+      subtitle: "Awarded as the employee of the Quarter for April 2022-June 2022 ",
       image: require("./assets/images/bluepilogo.png"),
       imageAlt: "BluePi",
     },
     {
       title: "Best Emerging Student Branch of the year 2019, India",
-      subtitle:
-        "Awarded as the Best Emerging Student Branch of the year, 2019 among 12 sections and 600+ student branches in India",
+      subtitle: "Awarded as the Best Emerging Student Branch of the year, 2019 among 12 sections and 600+ student branches in India",
       image: require("./assets/images/ieee.png"),
       imageAlt: "IEEE Logo",
       footerLink: [
@@ -285,11 +282,11 @@ const achievementSection = {
       imageAlt: "IEEE Logo",
       footerLink: [
         {
-          name: "Final Project",
+          name: "IEEE Student Branch",
           url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/",
         }
       ]
-    }
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
