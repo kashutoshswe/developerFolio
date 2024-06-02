@@ -62,11 +62,11 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Spring Boot",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "aws",
@@ -115,7 +115,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Symbiosis International (Deemed) University",
-      logo: require("./assets/images/siu.png"),
+      logo: require("./assets/images/siu2.jpeg"),
       subHeader: "Master of Science in Computer Applications",
       duration: "May 2019 - May 2021",
       desc: "Gold Medalist. Took courses about Software Architectures, Data Mining, NoSQL",
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Senior Engineer - Application",
       company: "BluePi",
-      companylogo: require("./assets/images/bluepi2.png"),
+      companylogo: require("./assets/images/bluepi3.jpeg"),
       date: "January 2023 – January 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -190,7 +190,7 @@ const workExperiences = {
     {
       role: "Application Development Engineer",
       company: "BluePi",
-      companylogo: require("./assets/images/bluepilogo.png"),
+      companylogo: require("./assets/images/bluepi3.jpeg"),
       date: "November 2021 – January 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -246,9 +246,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
@@ -360,7 +360,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me "),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "ashutoshkumarbook@gmail.com"
