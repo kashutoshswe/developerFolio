@@ -255,8 +255,14 @@ const achievementSection = {
       title: "Employee of the Quarter",
       subtitle:
         "Awarded as the employee of the Quarter for January 2023-March 2023 & April 2022-June 2022",
-      image: require("./assets/images/bluepilogo.png"),
-      imageAlt: "BluePi"
+      image: require("./assets/images/ieee.png"),
+      imageAlt: "BluePi",
+      footerLink: [
+        {
+          name: "IEEE Student Branch",
+          url: "https://edu.ieee.org/in-sicsr/outstanding-emerging-student-branch-under-ieee-india-council-awards-2021-2/"
+        }
+      ]
     },
     {
       title: "Best Emerging Student Branch of the year 2019, India",
