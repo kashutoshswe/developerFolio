@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Associate Technical Lead",
       company: "BluePi",
-      companylogo: require("./assets/images/bluepilogo.png"),
+      companylogo: require("./assets/images/bluepi3.png"),
       date: "January 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -178,7 +178,7 @@ const workExperiences = {
     {
       role: "Senior Engineer - Application",
       company: "BluePi",
-      companylogo: require("./assets/images/bluepilogo.png"),
+      companylogo: require("./assets/images/bluepi2.png"),
       date: "January 2023 – January 2024",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -255,7 +255,7 @@ const achievementSection = {
       title: "Employee of the Quarter",
       subtitle:
         "Awarded as the employee of the Quarter for January 2023-March 2023 & April 2022-June 2022",
-      image: require("./assets/images/ieee.png"),
+      image: require("./assets/images/bluepi2.png"),
       imageAlt: "BluePi",
       footerLink: [
         {
@@ -363,7 +363,6 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-0000000000",
   email_address: "ashutoshkumarbook@gmail.com"
 };
 
