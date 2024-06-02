@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Associate Technical Lead",
       company: "BluePi",
-      companylogo: require("./assets/images/bluepi3.png"),
+      companylogo: require("./assets/images/bluepi3.jpeg"),
       date: "January 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
