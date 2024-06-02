@@ -274,7 +274,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "IEEE Student Branch ",
-          url: "https://edu.ieee.org/in-sicsr/outstanding-emerging-student-branch-under-ieee-india-council-awards-2021-2/"
+          url: "https://edu.ieee.org/in-sicsr/outstanding-emerging-student-branch-under-ieee-india-council-awards-2021-2/",
         }
       ]
     },
@@ -286,7 +286,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Final Project",
-          url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/"
+          url: "https://edu.ieee.org/in-sicsr/ieee-pune-section-student-chair-professional-of-the-year-2019-award/",
         }
       ]
     }
@@ -306,13 +306,13 @@ const blogSection = {
       url: "https://medium.com/acm-sicsr/the-dreams-which-got-wings-acm-student-chapter-sicsr-4aa2e881b022",
       title: "The Dreams Which Got Wings!",
       description:
-        " It started with the curiosity of students to have an ACM Chapter at our college"
+        " It started with the curiosity of students to have an ACM Chapter at our college",
     },
     {
       url: "https://medium.com/@ashutoshkumarbook/cancer-end-of-a-story-2510f6a87238",
       title: "Cancer - End of Story",
       description:
-        "No Shave November Support"
+        "No Shave November Support",
     }
   ],
   display: true // Set false to hide this section, defaults to true
