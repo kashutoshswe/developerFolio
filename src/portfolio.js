@@ -216,7 +216,7 @@ const bigProjects = {
   subtitle: "Cool Stuff which I love to build whenever I get some time",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/foodRecipe.jpeg"),
       projectName: "Food Recipe App",
       projectDesc: "Search using an incredient and get recipes",
       footerLink: [
@@ -228,7 +228,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/attendance.jpeg"),
       projectName: "Automated QR Code Based System",
       projectDesc: "Automated QR Code Based System for Employees for Tara Mobile Creches NGO",
       footerLink: [
