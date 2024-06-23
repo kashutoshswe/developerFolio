@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with Spring Boot, Java / Python / Reactjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1gr46BsFR27sMRGxgk5kVq2gO2YuoGhIe/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1v7THgGV3QGWvmqS4PvB3Zs4gi4vIizua/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/stars/kashutoshswe/",
   linkedin: "https://www.linkedin.com/in/ashutoshkumarlink/",
-  gmail: "ashutoshkumarbook@gmail.com",
+  gmail: "mailtoashutoshkumars@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -62,11 +62,11 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Spring Boot",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "aws",
@@ -334,7 +334,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -347,7 +347,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -363,7 +363,7 @@ const contactInfo = {
   title: emoji("Contact Me "),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "ashutoshkumarbook@gmail.com"
+  email_address: "mailtoashutoshkumars@gmail.com"
 };
 
 // Twitter Section
